@@ -1,0 +1,36 @@
+:root{
+    --maincolor: #9A3C3C;
+    --secondarycolor: yellow;
+    --clearcolor: white;
+    --space: 15px;
+}
+
+.navbar{
+    background-color: var(--maincolor) !important;
+    .navbar-brand{
+        img{
+            height: 60px;
+            width: 235.5px;
+        }
+    }
+    .navbar-link{
+        color: var(--clearcolor) !important;
+    }
+    .active {
+        color: var(--secondarycolor) !important;
+    }
+}
+.card{
+    margin-bottom: var(--space);
+    img{
+        border-radius: 5px 5px 0 0;
+    }
+}
+.footer{
+    background-color: var(--maincolor);
+    color: var(--clearcolor);
+    padding: var(--space) 0;
+    img{
+        width:300px;
+    }
+}
